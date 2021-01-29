@@ -30,14 +30,17 @@ jobs:
       - name: Build
         run: dotnet build FluentChange.Integrations.sln --configuration Release --no-restore
 
-      - name: Pack nuget FluentChange.Integrations.ExchangeRates
-        run: dotnet pack FluentChange.Integrations.ExchangeRates.csproj --configuration Release --no-build --no-restore 
+      - name: Pack nuget ExchangeRates
+        working-directory: ./FluentChange.Integrations.ExchangeRates
+        run: dotnet pack --configuration Release --no-build --no-restore 
 
-      - name: Pack nuget FluentChange.Integrations.FinApi
-        run: dotnet pack FluentChange.Integrations.FinApi.csproj --configuration Release --no-build --no-restore 
+      - name: Pack nuget FinApi
+        working-directory: ./FluentChange.Integrations.FinApi
+        run: dotnet pack --configuration Release --no-build --no-restore 
 
-      - name: Pack nuget FluentChange.Integrations.Tink
-        run: dotnet pack FluentChange.Integrations.Tink.csproj --configuration Release --no-build --no-restore 
+      - name: Pack nuget Tink
+        working-directory: ./FluentChange.Integrations.Tink
+        run: dotnet pack --configuration Release --no-build --no-restore 
 
       - name: Upload artifacts
         uses: actions/upload-artifact@v2
