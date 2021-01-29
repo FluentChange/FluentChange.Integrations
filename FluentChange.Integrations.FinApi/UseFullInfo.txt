@@ -1,0 +1,8 @@
+﻿
+
+https://docs.finapi.io/#!/Banks/getBank
+
+
+https://di-live.finapi.io/#!/B2B_reports/fetchB2BBalanceReport
+
+https://teaminvest.jira.com/wiki/spaces/ACCDOC/pages/817430540/finAPI+Web-Form+Components

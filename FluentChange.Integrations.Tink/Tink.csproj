@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <Version>0.0.1</Version>
+    
+    <Authors>Frank Mühlschlegel</Authors>
+    <Company>Fluent Change</Company>
+    <Product>Rest Client for Tink</Product>
+    <Description>(Unfinished, Work in Progress) Unofficial Rest Client for tink.com</Description>
+      
+    <PackageTags>Tink Rest Client Accounts Bank PSD2</PackageTags>
+    <PackageProjectUrl>https://github.com/FluentChange/FluentChange.Integrations/tree/master/FluentChange.Integrations.Tink</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/FluentChange/FluentChange.Integrations</RepositoryUrl>
+    <RepositoryType>GitHub</RepositoryType>
+
+    <PackageId>FluentChange.Integrations.Tink</PackageId>
+    <AssemblyName>FluentChange.Integrations.Tink</AssemblyName>
+    <RootNamespace>FluentChange.Integrations.Tink</RootNamespace>
+  </PropertyGroup>
+  
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+    <PackageReference Include="RestSharp" Version="106.11.7" />
+  </ItemGroup>
+</Project>
