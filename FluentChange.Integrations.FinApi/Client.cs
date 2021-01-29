@@ -1,4 +1,4 @@
-﻿using FluentChange.Integrations.FinaApi.Models;
+﻿using FluentChange.Integrations.FinApi.Models;
 using IO.Swagger.Api;
 using IO.Swagger.Client;
 using IO.Swagger.Model;

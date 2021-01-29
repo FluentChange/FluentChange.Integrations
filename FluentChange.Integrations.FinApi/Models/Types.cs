@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace FluentChange.Integrations.FinaApi.Models
+namespace FluentChange.Integrations.FinApi.Models
 {
     public static class ConnectStatus
     {
